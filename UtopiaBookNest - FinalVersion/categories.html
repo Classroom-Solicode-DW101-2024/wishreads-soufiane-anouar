@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksNest - Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Text:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="sub-navbar">
+        <img class="logo" src="./img slides/Logo.png" alt="logo">
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="categories.html" style="color:rgb(205, 31, 60); font-weight: bold;">Categories</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <main class="categories-page">
+        <div class="categories-container">
+            <!-- Left Side: Books Display -->
+            <div class="books-display">
+                <h2 id="categoryTitle">Sélectionnez une catégorie</h2>
+                <div class="books-grid" id="categoryBooksGrid">
+                    <!-- Books will be inserted here -->
+                </div>
+            </div>
+
+            <!-- Right Side: Category Selection -->
+            <!-- Category Selection -->
+            <!-- Right Side: Category Selection -->
+            <div class="category-selection">
+                <h2>Categories</h2>
+                <table class="category-table">
+                    <!-- Categories will populated here -->
+                </table>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <hr id="top-footer">
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img class="footer-logo-img" src="./img slides/Logo.png" alt="logo">
+                </div>
+                <div class="footer-socials">
+                    <a href="https://facebook.com" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://discord.com" target="_blank" class="social-icon">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <h3>Menu</h3>
+                <ul class="nav-links"></ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="categories.html" style="color:rgb(205, 31, 60); font-weight: bold;">Categories</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <p class="footer-text">
+            At <span id="yellow-txt">Utopia BookNest</span>, immerse yourself in a world of fantasy, dystopian, and
+            classic literature. Share your
+            favorite stories, uncover hidden gems, and explore captivating realms of magic, futuristic societies, and
+            timeless tales. It’s a haven for readers to celebrate the power of extraordinary storytelling.
+        </p>
+        <hr>
+        <p>© 2024 <span id="yellow-txt">Utopia BookNest</span>. All rights reserved.</p>
+    </footer>
+
+    <script src="categories.js"></script>
+</body>
+
+</html>

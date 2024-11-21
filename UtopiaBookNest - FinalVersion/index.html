@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utopia BooksNest</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Text:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <nav class="navbar">
+            <img class="logo" src="./img slides/Logo.png" alt="logo">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active" style="color:rgb(205, 31, 60); font-weight: bold;">Home</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="categories.html">Categories</a></li>
+            </ul>
+            <div class="search-container">
+                <select id="searchCriteria">
+                    <option value="all"> All </option>
+                    <option value="title"> Title </option>
+                    <option value="author"> Author </option>
+                </select>
+                <input type="text" id="searchInput" placeholder="   Search Books...">
+                <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+                <button id="clearBtn"><i class="fa-regular fa-circle-xmark"></i> Clear</button>
+            </div>
+        </nav>
+        <hr>
+
+        <div class="slide-show">
+            <img id="MBslide" class="show" src="img slides/Moby_Dick.png" alt="Moby Dick">
+            <img id="DNslide" class="show" src="img slides/DUNE.png" alt="DUNE">
+            <img id="HPslide" class="show" src="img slides/Harry_Potter.png" alt="Harry Potter">
+            <img id="THslide" class="show" src="img slides/The_Hobbit.png" alt="The Hobbit">
+
+
+
+        </div>
+        <div id="slide-buttons" class="slid-show-controls"></div>
+    </div>
+    
+    <main>
+        <div id="announcement-bar">
+                <div id="ann-txt">
+                    <p>We are thrilled to announce that <span id="red-txt">the book thief</span> by <span id="red-txt">markuz zusak</span> has just been added to our library.</p>
+                    <a href="http://127.0.0.1:5500/details.html?title=The%20Book%20Thief">Visit now and check it out! </a>
+                  </div>
+
+        </div>
+
+    
+        <h2 class="book-title">Current Books</h2>
+        <div class="books-container" id="booksGrid">
+            
+
+        </div>
+        <hr>
+        <h2 class="categories-title">Top Categories</h2>
+        <section class="top-categories">
+            
+            <div class="icons-holder fan">
+                <div class="category" data-category="Fantasy">
+                    <a href="categories.html?category=Fantasy">
+                        <i class="categories-Icons">
+                            <img id="fantasyIc" src="img slides/fantasy icon.png" alt="fantasy">
+                        </i>
+                        <span>Fantasy</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="icons-holder dys"></div>
+                <div class="category" data-category="Dystopian">
+                    <a href="categories.html?category=Dystopian">
+                        <i class="categories-Icons">
+                            <img id="dystopianLogo" src="img slides/Dystopian icon.png" alt="dystopian">
+                        </i>
+                        <span>Dystopian</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="icons-holder cls"></div>
+                <div class="category" data-category="Classic Literature">
+                    <a href="categories.html?category=Classic Literature">
+                        <i class="categories-Icons">
+                            <img src="img slides/classic icon.png" alt="">
+                        </i>
+                        <span>Classic Literature</span>
+                    </a>
+                </div>
+            </div>    
+        </section>
+    </main>
+
+    <hr id="top-footer">
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img class="footer-logo-img" src="./img slides/Logo.png" alt="logo">
+                </div>
+                <div class="footer-socials">
+                    <a href="https://facebook.com" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://discord.com" target="_blank" class="social-icon">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <h3>Menu</h3>
+                <ul class="nav-links"></ul>
+                <li><a href="index.html" class="active" style="color:rgb(205, 31, 60); font-weight: bold;">Home</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <p class="footer-text">
+            At <span id="yellow-txt">Utopia BookNest</span>, immerse yourself in a world of fantasy, dystopian, and
+            classic literature. Share your
+            favorite stories, uncover hidden gems, and explore captivating realms of magic, futuristic societies, and
+            timeless tales. It’s a haven for readers to celebrate the power of extraordinary storytelling.
+        </p>
+        <hr>
+        <p>© 2024 <span id="yellow-txt">Utopia BookNest</span>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

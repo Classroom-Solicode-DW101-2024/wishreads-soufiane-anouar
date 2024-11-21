@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksNest - Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Text:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="sub-navbar">
+        <img class="logo" src="./img slides/Logo.png" alt="logo">
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="categories.html">Categories</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <main class="book-details-container">
+        <div class="book-details">
+            <div class="book-cover-section">
+                <img id="bookCover" src="" alt="Couverture du livre">
+                <div class="action-buttons">
+                    <button id="wishlistBtn" class="action-btn">
+                        <i class="fas fa-heart"></i> Add to wishlist
+                    </button>
+                    <a id="readBtn" href="" class="action-btn" target="_blank">
+                        <i class="fa-solid fa-file-pdf"></i> Read
+                    </a>
+                </div>
+            </div>
+            <div class="book-info-section">
+                <h1 id="bookTitle"></h1>
+                <div class="book-metadata">
+                    <p id="bookCategory" class="category-tag"></p>
+                    <p id="bookDate"></p>
+                </div>
+                <div class="book-description">
+                    <h2><i class="fa-solid fa-book"></i> | Synopsis</h2>
+                    <p id="bookDescription"></p>
+                </div>
+                <div class="author-section">
+                    <h2><i class="fa-solid fa-pen-nib"></i> | About Author</h2>
+                    <h3 id="authorName"></h3>
+                    <p id="authorBio"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+        <hr id="top-footer">
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img class="footer-logo-img" src="./img slides/Logo.png" alt="logo">
+                </div>
+                <div class="footer-socials">
+                    <a href="https://facebook.com" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://discord.com" target="_blank" class="social-icon">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <h3>Menu</h3>
+                <ul class="nav-links"></ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="wishlist.html" style="color:rgb(205, 31, 60); font-weight: bold;">Wishlist</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <p class="footer-text">
+            At <span id="yellow-txt">Utopia BookNest</span>, immerse yourself in a world of fantasy, dystopian, and
+            classic literature. Share your
+            favorite stories, uncover hidden gems, and explore captivating realms of magic, futuristic societies, and
+            timeless tales. It’s a haven for readers to celebrate the power of extraordinary storytelling.
+        </p>
+        <hr>
+        <p>© 2024 <span id="yellow-txt">Utopia BookNest</span>. All rights reserved.</p>
+    </footer>
+
+    <script src="details.js"></script>
+</body>
+
+</html>

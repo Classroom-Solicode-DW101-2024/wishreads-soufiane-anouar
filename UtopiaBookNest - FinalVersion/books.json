@@ -1,0 +1,186 @@
+{
+    "books": [
+      {
+        "title": "His Dark Materials",
+        "description": "Lyra Belacqua uncovers a dark conspiracy involving stolen children and embarks on a journey to fulfill her destiny in a parallel universe.",
+        "cover": "https://m.media-amazon.com/images/I/51BnbzW1q5L._SY445_SX342_.jpg",
+        "linkPdf": "https://lgnavigators.weebly.com/uploads/5/8/5/2/58521739/his_dark_materials_omnibus.pdf",
+        "author": {
+          "name": "Philip Pullman",
+          "biography": "Philip Pullman, born October 19, 1946, in Norwich, England, is an acclaimed British author known for blending philosophical themes with compelling storytelling. His *His Dark Materials* series challenges traditional narratives, exploring complex ideas about religion, morality, and free will."
+        },
+        "releaseDate": "1995-07-16",
+        "category": "Fantasy"
+      },
+      {
+        "title": "The Maze Runner",
+        "description": "Thomas wakes up in a mysterious maze with no memory, joining other teens in a desperate fight for survival and escape.",
+        "cover": "https://m.media-amazon.com/images/I/711lIcW7sNL._SL1500_.jpg",
+        "linkPdf": "https://mskandres.weebly.com/uploads/1/4/2/1/14213852/the_maze_runner_-_full_novel_pdf.pdf",
+        "author": {
+          "name": "James Dashner",
+          "biography": "James Dashner, born November 26, 1972, in Austell, Georgia, is an American author whose works are known for their suspense and fast-paced plots. With *The Maze Runner*, Dashner captures themes of identity, resilience, and teamwork in high-stakes dystopian settings."
+        },
+        "releaseDate": "2009-10-06",
+        "category": "Dystopian"
+      },
+      {
+        "title": "Divergent",
+        "description": "In a society divided into factions, Tris Prior discovers she is Divergent, a threat to the rigid system, and must navigate her dangerous world.",
+        "cover": "https://i.harperapps.com/hcanz/covers/9780007420438/x293.jpg",
+        "linkPdf": "https://www.sausd.us/cms/lib/CA01000471/Centricity/Domain/241/Divergent.pdf",
+        "author": {
+          "name": "Veronica Roth",
+          "biography": "Veronica Roth, born August 19, 1988, in New York City, is an American novelist best known for her *Divergent* series. Her works explore individuality and societal expectations, captivating readers with her relatable protagonists and thrilling plots."
+        },
+        "releaseDate": "2011-04-25",
+        "category": "Dystopian"
+      },
+      {
+        "title": "Eragon",
+        "description": "Eragon discovers a dragon egg and embarks on a quest to confront a dark empire and fulfill his destiny as a Dragon Rider.",
+        "cover": "https://m.media-amazon.com/images/I/91EJQU2B4cL._SL1500_.jpg",
+        "linkPdf": "https://spensabayalibrary.wordpress.com/wp-content/uploads/2016/04/eldest.pdf",
+        "author": {
+          "name": "Christopher Paolini",
+          "biography": "Christopher Paolini, born November 17, 1983, in Los Angeles, California, is an American author who wrote *Eragon* as a teenager. His passion for fantasy and storytelling led to the creation of the *Inheritance Cycle*, which captivated young readers worldwide."
+        },
+        "releaseDate": "2002-08-26",
+        "category": "Fantasy"
+      },
+      {
+        "title": "The Book Thief",
+        "description": "In Nazi Germany, young Liesel Meminger finds solace in stealing books and sharing their stories, even as Death narrates her tale of loss and resilience.",
+        "cover": "https://booksondemand.ma/cdn/shop/products/9123eop9gIL.jpg?v=1631701489&width=990",
+        "linkPdf": "https://cdnsm5-ss3.sharpschool.com/UserFiles/Servers/Server_4204286/Image/Grade9GT--TheBookThiefMarkusZusak.pdf",
+        "author": {
+          "name": "Markus Zusak",
+          "biography": "Markus Zusak, born June 23, 1975, in Sydney, Australia, is a celebrated author whose works explore themes of humanity, love, and resilience. His novel *The Book Thief* combines poetic prose with poignant storytelling, earning widespread acclaim."
+        },
+        "releaseDate": "2005-03-14",
+        "category": "Classic Literature"
+      },
+      {
+        "title": "A Wrinkle in Time",
+        "description": "Meg Murry travels across dimensions to rescue her father from a malevolent force, learning about love, courage, and the power of individuality.",
+        "cover": "https://m.media-amazon.com/images/I/71qLEA3rEwL._SL1500_.jpg",
+        "linkPdf": "https://content.schoolinsites.com/api/documents/77575ab371c844b8a23064723b85c5d7.pdf",
+        "author": {
+          "name": "Madeleine L'Engle",
+          "biography": "Madeleine L'Engle, born November 29, 1918, in New York City, was an American author known for blending science, spirituality, and family dynamics. Her *A Wrinkle in Time* series broke boundaries in children’s literature, addressing complex themes with heartfelt storytelling."
+        },
+        "releaseDate": "1962-01-01",
+        "category": "Fantasy"
+      },
+      {
+        "title": "The Hobbit",
+        "description": "Bilbo Baggins embarks on an epic journey with a group of dwarves to reclaim their homeland, encountering dragons, trolls, and adventure.",
+        "cover": "https://m.media-amazon.com/images/I/41iWAOOaw4L._SY445_SX342_.jpg",
+        "linkPdf": "https://rsd2-alert-durden-reading-room.weebly.com/uploads/6/7/1/6/6716949/the_hobbit_tolkien.pdf",
+        "author": {
+          "name": "J.R.R. Tolkien",
+          "biography": "J.R.R. Tolkien, born January 3, 1892, in Bloemfontein, South Africa, was an English philologist and author known for creating richly detailed fantasy worlds. His works, including *The Hobbit*, introduced readers to timeless tales of courage, friendship, and adventure."
+        },
+        "releaseDate": "1937-09-21",
+        "category": "Fantasy"
+      },
+      {
+        "title": "The Chronicles of Narnia",
+        "description": "Four siblings discover the magical land of Narnia, joining forces with Aslan to defeat the White Witch and bring peace.",
+        "cover": "https://m.media-amazon.com/images/I/81QUw81WcoL._SL1500_.jpg",
+        "linkPdf": "https://www.samizdat.qc.ca/arts/lit/PDFs/LionWitchWardrobe_CSL.pdf",
+        "author": {
+          "name": "C.S. Lewis",
+          "biography": "C.S. Lewis, born November 29, 1898, in Belfast, Ireland, was an Irish writer and theologian best known for *The Chronicles of Narnia*. His stories combine imaginative world-building with themes of morality, faith, and redemption."
+        },
+        "releaseDate": "1950-10-16",
+        "category": "Fantasy"
+      },
+      {
+        "title": "Harry Potter",
+        "description": "Harry discovers he is a wizard and attends Hogwarts, where he makes friends and uncovers the mystery of the Philosopher's Stone.",
+        "cover": "https://m.media-amazon.com/images/I/71XqqKTZz7L._SL1200_.jpg",
+        "linkPdf": "https://docenti.unimc.it/antonella.pascali/teaching/2018/19055/files/ultima-lezione/harry-potter-and-the-philosophers-stone",
+        "author": {
+          "name": "J.K. Rowling",
+          "biography": "J.K. Rowling, born July 31, 1965, in Yate, England, is a British author whose journey to success is as compelling as the stories she creates. Before her rise to fame, Rowling faced many challenges, including financial hardship and numerous rejections from publishers. With perseverance, she transformed her idea of a young wizard into a series that would capture the world’s imagination. Her story is often cited as an inspiring example of resilience, creativity, and the power of storytelling. Today, Rowling is recognized not only for her literary achievements but also for her philanthropy and advocacy on various social issues."
+        },
+        "releaseDate": "1997-06-26",
+        "category": "Fantasy"
+      },
+      {
+        "title": "The Hunger Games",
+        "description": "Katniss Everdeen enters a deadly televised competition to protect her sister and sparks rebellion in a dystopian world.",
+        "cover": "https://m.media-amazon.com/images/I/51fpAO2BjXL._SY445_SX342_.jpg",
+        "linkPdf": "https://www.deyeshigh.co.uk/downloads/literacy/world_book_day/the_hunger_games_-_trilogy.pdf",
+        "author": {
+          "name": "Suzanne Collins",
+          "biography": "Suzanne Collins, born August 10, 1962, in Hartford, Connecticut, is an American author who gained fame with her Hunger Games trilogy. Drawing inspiration from her experience in children’s television and her interest in classical mythology and dystopian themes, Collins created a world that examines power, survival, and humanity. Her ability to blend action with profound social commentary has earned her widespread acclaim."
+        },
+        "releaseDate": "2008-09-14",
+        "category": "Dystopian"
+      },
+      {
+        "title": "Dune",
+        "description": "In the distant future, Paul Atreides must navigate political intrigue, desert ecosystems, and a struggle for control of the spice melange on the desert planet of Arrakis. As he becomes embroiled in a prophecy, Paul faces complex challenges that could shape the fate of the universe.",
+        "cover": "https://m.media-amazon.com/images/I/41KnOXaLyuL._SY445_SX342_.jpg",
+        "linkPdf": "https://b-ok.cc/book/2119913/9ab7c2",
+        "author": {
+          "name": "Frank Herbert",
+          "biography": "Frank Herbert (1920-1986) was an American author and journalist, best known for his *Dune* series. His works explored themes of politics, religion, and ecology, and *Dune* has become a cornerstone of science fiction literature."
+        },
+        "releaseDate": "1965-08-01",
+        "category": "Fantasy"
+      },
+      {
+        "title": "The Lord of the Rings",
+        "description": "Frodo Baggins, a hobbit, is tasked with destroying a powerful ring that could bring darkness to Middle-earth. Along with his companions, he embarks on an epic journey to the heart of enemy territory, confronting forces of evil led by Sauron.",
+        "cover": "https://m.media-amazon.com/images/I/41N99KpmqOL._SY445_SX342_.jpg",
+        "linkPdf": "https://b-ok.cc/book/1941142/06d444",
+        "author": {
+          "name": "J.R.R. Tolkien",
+          "biography": "J.R.R. Tolkien (1892-1973) was an English author and philologist, best known for creating *The Hobbit* and *The Lord of the Rings* trilogy. His works have had a profound impact on modern fantasy literature, blending myth, linguistics, and epic storytelling."
+        },
+        "releaseDate": "1954-07-29",
+        "category": "Fantasy"
+      },
+      {
+        "title": "Moby-Dick",
+        "description": "Captain Ahab embarks on a relentless pursuit of the great white whale, Moby-Dick, that had previously maimed him. Through Ishmael, the novel explores themes of obsession, the human condition, and the unpredictability of nature.",
+        "cover": "https://m.media-amazon.com/images/I/610qaD5PskL._SY522_.jpg",
+        "linkPdf": "https://b-ok.cc/book/1188494/83ed10",
+        "author": {
+          "name": "Herman Melville",
+          "biography": "Herman Melville (1819-1891) was an American author, best known for his novel *Moby-Dick*, which has become a classic of American literature. His works often explore the complexities of human nature, societal issues, and the natural world."
+        },
+        "releaseDate": "1851-10-18",
+        "category": "Classic Literature"
+      },
+      {
+        "title": "The Lightning Thief",
+        "description": "Percy Jackson discovers he is the son of Poseidon and embarks on a dangerous quest to prevent a war among the gods. Along with his friends Annabeth and Grover, Percy must retrieve Zeus' stolen lightning bolt and stop the forces of evil from taking over the world.",
+        "cover": "https://m.media-amazon.com/images/I/51LdV0opNvL._SY445_SX342_.jpg",
+        "linkPdf": "https://b-ok.cc/book/1142782/3de246",
+        "author": {
+          "name": "Rick Riordan",
+          "biography": "Rick Riordan is an American author best known for writing the *Percy Jackson & the Olympians* series. His books, which blend Greek mythology with modern-day adventures, have been highly popular among young readers."
+        },
+        "releaseDate": "2005-06-28",
+        "category": "Fantasy"
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "description": "In the racially charged atmosphere of the American South during the 1930s, young Scout Finch narrates her experiences with her father, lawyer Atticus Finch, as he defends a black man, Tom Robinson, falsely accused of raping a white woman.",
+        "cover": "https://m.media-amazon.com/images/I/51tDHl8Z7cL.jpg",
+        "linkPdf": "https://b-ok.cc/book/813318/32d85b",
+        "author": {
+          "name": "Harper Lee",
+          "biography": "Harper Lee (1926-2016) was an American novelist best known for her Pulitzer Prize-winning novel *To Kill a Mockingbird*. The book addresses serious issues such as racial injustice, moral growth, and the loss of innocence."
+        },
+        "releaseDate": "1960-07-11",
+        "category": "Classic Literature"
+      }
+      
+    ]
+  }
+  
